@@ -1,0 +1,51 @@
+# -------------------------
+# Python / Virtualenv
+# -------------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Environment variables
+# -------------------------
+.env
+
+# -------------------------
+# Local databases & data
+# -------------------------
+history.db
+*.db
+Data/
+
+# -------------------------
+# Secrets / keys
+# -------------------------
+journal_suggestion_api_api_key.txt
+*.key
+*.pem
+
+# -------------------------
+# OS / Editor noise
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------
+# Jupyter / notebooks
+# -------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# -------------------------
+# HF Space source (not needed for API deployment)
+# -------------------------
+Hugging Face Data/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
